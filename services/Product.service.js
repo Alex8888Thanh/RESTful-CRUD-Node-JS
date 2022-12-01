@@ -1,5 +1,5 @@
 import {Router} from "express";
-import {deleteProduct, getPage, upsertProduct, findById} from "../repositories/Product.model";
+import {deleteProduct, upsertProduct, findById} from "../repositories/Product.model";
 const router = Router();
 
 router.post('/create', (req, res) => {
